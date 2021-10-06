@@ -1,0 +1,14 @@
+benchmark start : 2021/10/06 16:16:19
+system_configs
+
+uname_result(system='Linux', node='draco.ecn.purdue.edu', release='4.15.0-154-generic', version='#161-Ubuntu SMP Fri Jul 30 13:04:17 UTC 2021', machine='x86_64', processor='x86_64')
+                     scpufreq(current=2794.9916875000004, min=0.0, max=0.0)
+                    cpu_count: 64
+                    memory_available: 160009076736
+gpu_configs
+
+Number of GPUs on current device : 1
+CUDA Version : 10.2
+Cudnn Version : 7605
+Device Name : Tesla V100S-PCIE-32GB
+benchmark end : 2021/10/06 16:41:31
