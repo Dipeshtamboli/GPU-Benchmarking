@@ -1,0 +1,14 @@
+benchmark start : 2021/10/07 17:08:37
+system_configs
+
+uname_result(system='Linux', node='gilbreth-fe01.rcac.purdue.edu', release='3.10.0-1062.9.1.el7.x86_64', version='#1 SMP Fri Dec 6 15:49:49 UTC 2019', machine='x86_64', processor='x86_64')
+                     scpufreq(current=1445.5822999999996, min=800.0, max=3000.0)
+                    cpu_count: 20
+                    memory_available: 58313891840
+gpu_configs
+
+Number of GPUs on current device : 1
+CUDA Version : 10.2
+Cudnn Version : 7605
+Device Name : Tesla P100-PCIE-12GB
+benchmark end : 2021/10/07 18:37:10
