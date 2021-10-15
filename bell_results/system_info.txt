@@ -1,0 +1,14 @@
+benchmark start : 2021/10/15 12:16:29
+system_configs
+
+uname_result(system='Linux', node='bell-g003.rcac.purdue.edu', release='3.10.0-1127.19.1.el7.x86_64', version='#1 SMP Tue Aug 25 17:23:54 UTC 2020', machine='x86_64', processor='x86_64')
+                     scpufreq(current=1996.3120000000035, min=0.0, max=0.0)
+                    cpu_count: 128
+                    memory_available: 250904465408
+gpu_configs
+
+Number of GPUs on current device : 1
+CUDA Version : None
+Cudnn Version : 2011000
+Device Name : Device 66a1
+benchmark end : 2021/10/15 14:17:31
