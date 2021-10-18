@@ -47,3 +47,7 @@ for csv in csv_list:
         pdb.set_trace()
         # df.mean()[model].iplot(kind='scatter',mode='markers',title=model+"_"+title,yTitle='time(ms)',xTitle='models',asImage=True,filename=model+"_"+title)
         # time.sleep(1)
+
+# comb_df.plot(kind="bar").get_figure().savefig("bell.png")
+# fig = plot.get_figure()
+# fig.savefig("output_aura.png")    
