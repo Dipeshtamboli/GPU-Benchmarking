@@ -37,12 +37,13 @@ for csv in csv_list:
     title=csv.split('/')[1].split('_benchmark')[0]
     title=title.replace(' ','_')
     plot_data = df.groupby(level=0,axis=1).mean().mean().to_frame()
-    pdb.set_trace()
     plot = plot_data.plot()
-    fig = plot.get_figure()
-    fig.savefig("output.png")
+    # fig = plot.get_figure()
+    # fig.savefig("output.png")
     # plot_data.plot(x=plot_data.keys(), y=plot_data,kind='scatter',mode='markers',title=title,yTitle='time(ms)',xTitle='models',asImage=True,filename=title)
     # df.groupby(level=0,axis=1).mean().mean().to_frame().plot(kind='scatter',mode='markers',title=title,yTitle='time(ms)',xTitle='models',asImage=True,filename=title)
     for model in MODEL_LIST.keys():
-        df.mean()[model].iplot(kind='scatter',mode='markers',title=model+"_"+title,yTitle='time(ms)',xTitle='models',asImage=True,filename=model+"_"+title)
-        time.sleep(1)
+        print(model, '\n', df.mean()[model])
+        pdb.set_trace()
+        # df.mean()[model].iplot(kind='scatter',mode='markers',title=model+"_"+title,yTitle='time(ms)',xTitle='models',asImage=True,filename=model+"_"+title)
+        # time.sleep(1)
