@@ -25,7 +25,7 @@ Half precision: 16 bits
     - [Auriga info](https://github.com/Dipeshtamboli/GPU-Benchmarking/blob/master/auriga_results/system_info.txt)
 - `server_wise_plots` folder contains individual server plots comparing the time taken for different deep models for different precisions and modes (training/inference).
 
-![Result image](https://github.com/Dipeshtamboli/GPU-Benchmarking/blob/master/time_taken_vs_experiment_modes%20for%20different%20GPUs.png?raw=true)
+![Result image](https://github.com/Dipeshtamboli/GPU-Benchmarking/blob/master/time_taken%20vs%20experiment_modes%20for%20different%20GPUs.png?raw=true)
 
 This plot shows the average time taken by each GPU for different precisions and modes (training/inference). This is average over different deep learning architectures. From here, we can deduce that Bell is performing better than Gilbreth.
 
