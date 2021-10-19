@@ -16,6 +16,8 @@ Half precision: 16 bits
 - `plot_json.py` for plots corresponding to different servers as well as averaging over different deep models.
 - `*_results` folder contains the CSV files corresponding to each precision and mode. Also, it contains more information about the GPUs. (cores, model)
     - [Gilbreth info](https://github.com/Dipeshtamboli/GPU-Benchmarking/blob/master/gilbreth_results/system_info.txt)
+    - [Gilbreth-G sub-cluster info](https://github.com/Dipeshtamboli/GPU-Benchmarking/blob/master/gilbrethG_results/system_info.txt)
+
     - [Bell info](https://github.com/Dipeshtamboli/GPU-Benchmarking/blob/master/bell_results/system_info.txt)
 
     - [Draco info](https://github.com/Dipeshtamboli/GPU-Benchmarking/blob/master/draco_results/system_info.txt)

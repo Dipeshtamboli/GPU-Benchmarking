@@ -1,0 +1,14 @@
+benchmark start : 2021/10/18 20:59:37
+system_configs
+
+uname_result(system='Linux', node='gilbreth-g003.rcac.purdue.edu', release='3.10.0-1062.9.1.el7.x86_64', version='#1 SMP Fri Dec 6 15:49:49 UTC 2019', machine='x86_64', processor='x86_64')
+                     scpufreq(current=1996.2820000000047, min=0.0, max=0.0)
+                    cpu_count: 128
+                    memory_available: 511744303104
+gpu_configs
+
+Number of GPUs on current device : 1
+CUDA Version : 11.1
+Cudnn Version : 8005
+Device Name : A100-PCIE-40GB
+benchmark end : 2021/10/18 21:11:28
