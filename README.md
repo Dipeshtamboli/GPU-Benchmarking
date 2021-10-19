@@ -27,5 +27,5 @@ Half precision: 16 bits
 
 ![Result image](https://github.com/Dipeshtamboli/GPU-Benchmarking/blob/master/time_taken%20vs%20experiment_modes%20for%20different%20GPUs.png?raw=true)
 
-This plot shows the average time taken by each GPU for different precisions and modes (training/inference). This is average over different deep learning architectures. From here, we can deduce that Bell is performing better than Gilbreth.
+This plot shows the average time taken by each GPU for different precisions and modes (training/inference). This is average over different deep learning architectures. From here, we can deduce that GilbrethG is performing better than Bell.
 
